@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel = stylesheet type = "text/css" href="assets/css/style.css">
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+<div class="qheader">
+1) Where does Batman reside?</div>
+<div class="qselections">
+<input type="radio" value="a" name="question1">Metrocity.<br>
+<input type="radio" value="b" name="question1">New York City.<br>
+<input type="radio" value="c" name="question1">Gotham City.<br>
+<input type="radio" value="d" name="question1">insert hometown here.<br>
+</div>
+
+<br>
+
+<div class="qheader">
+2) Where does Superman reside?</div>
+<div class="qselections">
+<input type="radio" value="a" name="question2">Metropolis<br>
+<input type="radio" value="b" name="question2">Yorkshire<br>
+<input type="radio" value="c" name="question2">The Atlantic Ocean<br>
+<input type="radio" value="d" name="question2">New New York<br>
+</div>
+
+<br>
+
+<div class="qheader">
+3) Who is the Batman?</div>
+<div class="qselections">
+<input type="radio" value="a" name="question3">Bruce Mayne<br>
+<input type="radio" value="b" name="question3">Bruce Lame<br>
+<input type="radio" value="c" name="question3">Wruce Bayne<br>
+<input type="radio" value="d" name="question3">Bruce Wayne<br>
+</div>
+
+<br>
+
+<div class="qheader">
+4) According to "The Amazing Spiderman" movie, who is Spiderman's first love?</div>
+<div class="qselections">
+<input type="radio" value="a" name="question4">Mary Jane<br>
+<input type="radio" value="b" name="question4">Gwen Stacy<br>
+<input type="radio" value="c" name="question4">Anna Marconi<br>
+<input type="radio" value="d" name="question4">Betty Brant<br>
+</div>
+
+<br>
+
+<div class="qheader">
+5) What is the name of Iron Man's assisstant?</div>
+<div class="qselections">
+<input type="radio" value="a" name="question5">Jalepeno Hayworth<br>
+<input type="radio" value="b" name="question5">Pepper Potts<br>
+<input type="radio" value="c" name="question5">Rachel Dawes<br>
+<input type="radio" value="d" name="question5">Loki Odinson<br>
+</div>
+
+</form>
+
+<form>
+<div align="center">
+<input type="button" value="Grade Me!" name="B1" onClick="gradeit()"> <input type="button" value="Reset" name="B2" onClick="document.myquiz.reset()"></div>
+</form>
+    
+</body>
+</html>
